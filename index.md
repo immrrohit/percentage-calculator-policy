@@ -1,12 +1,16 @@
 # Privacy Policy — Percentage Calculator
 
+**Hosted at:** https://immrrohit.github.io/percentage-calculator-policy/
+
+
+
 **Effective Date:** May 24, 2026  
-**Last Updated:** May 24, 2026  
+**Last Updated:** May 31, 2026  
 **Developer:** GrizPlay  
 **App Name:** Percentage Calculator  
 **Package:** com.grizplayapp.percentagecalc  
 **Platform:** Android  
-**Contact:** support@grizplay.com
+**Contact:** grizplayapp@gmail.com
 
 ---
 
@@ -85,8 +89,10 @@ The App requests the following Android permissions:
 | `INTERNET` | Required for AdMob to load and display advertisements |
 | `VIBRATE` | Provides haptic feedback when tapping buttons (can be disabled in Settings) |
 | `com.google.android.gms.permission.AD_ID` | Required by Google AdMob to access the Advertising ID on Android 13+ |
-| `READ_EXTERNAL_STORAGE` *(maxSdkVersion 32)* | Legacy permission auto-included by the React Native build system; not used by the App |
-| `WRITE_EXTERNAL_STORAGE` *(maxSdkVersion 32)* | Legacy permission auto-included by the React Native build system; not used by the App |
+| `POST_NOTIFICATIONS` *(Android 13+ only)* | Required to show optional re-engagement reminder notifications. The App asks for permission before scheduling any notification; you can decline or revoke this at any time in device Settings. |
+| `RECEIVE_BOOT_COMPLETED` | Used to reschedule any pending notification reminders after a device restart, so they are not silently lost |
+| `READ_EXTERNAL_STORAGE` *(maxSdkVersion 32)* | Legacy permission auto-included by the React Native build system for Android 12 and below; not used by the App |
+| `WRITE_EXTERNAL_STORAGE` *(maxSdkVersion 32)* | Legacy permission auto-included by the React Native build system for Android 12 and below; not used by the App |
 
 The App does **not** request access to:
 - Camera or microphone
@@ -113,7 +119,7 @@ We do not retain any data on our servers because we do not collect any.
 
 The App does not target or knowingly collect personal information from children under the age of 13. The App is rated for general audiences.
 
-AdMob is configured without child-directed treatment flags; if you are a parent or guardian and believe your child under 13 has used this App, please contact us at **support@grizplay.com** and we will assist you.
+AdMob is configured without child-directed treatment flags; if you are a parent or guardian and believe your child under 13 has used this App, please contact us at **grizplayapp@gmail.com** and we will assist you.
 
 We comply with the **Children's Online Privacy Protection Act (COPPA)** and applicable regional laws.
 
@@ -144,7 +150,7 @@ Depending on your jurisdiction, you may have rights including:
 - **GDPR (EU users):** Right of access, rectification, erasure, and objection
 - **CCPA (California users):** Right to know, delete, and opt-out of sale (we do not sell data)
 
-To exercise any rights, contact us at **support@grizplay.com**.
+To exercise any rights, contact us at **grizplayapp@gmail.com**.
 
 ---
 
@@ -163,7 +169,7 @@ Continued use of the App after any changes constitutes acceptance of the updated
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or the App's data practices, please contact us:
 
-**Email:** support@grizplay.com  
+**Email:** grizplayapp@gmail.com  
 **Developer:** GrizPlay  
 **App:** Percentage Calculator (com.grizplayapp.percentagecalc)
 
